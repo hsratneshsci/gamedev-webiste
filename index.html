@@ -1,0 +1,615 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Full Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+</style>
+<link href="font-awesome.min.css" rel="stylesheet">
+<style>
+#header
+{
+   display: -webkit-flex;
+   display: flex;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 7777;
+   padding: 10px 10px 10px 10px;
+   box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-between;
+   justify-content: space-between;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: #343A40;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#wb_home
+{
+   background-color: #007BFF;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   position: relative;
+}
+#home
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   min-height: 100vh;
+   padding: 50px 10px 50px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: left;
+}
+#wb_about
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #F5F5F5;
+   box-sizing: border-box;
+   position: relative;
+}
+#about
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   min-height: 100vh;
+   padding: 50px 10px 50px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+   background-color: transparent;
+   background-image: none;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 8px 15px 8px 15px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Card6
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Card6-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0px 20px;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 32px;
+}
+#Card6-card-item1
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0px 20px;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+}
+#wb_services
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   position: relative;
+}
+#services
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   min-height: 100vh;
+   padding: 50px 10px 50px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: center;
+   align-content: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#footer
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-between;
+   justify-content: space-between;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: #414A4F;
+   background-image: none;
+   border: 0px solid #414A4F;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#wb_CssMenu1
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   margin: 0;
+   -webkit-flex-grow: 2;
+   flex-grow: 2;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   text-align: right;
+   z-index: 1111 !important;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 0px 0px 4px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #999999;
+   border: 0px solid #CCCCCC;
+   background-color: transparent;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   font-style: normal;
+   text-decoration: none;
+   height: 28px;
+   line-height: 28px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
+{
+   color: #FFFFFF;
+   border: 0px solid #2E6DA4;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#wb_Heading5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   margin: 0;
+   padding: 0px 0px 25px 0px;
+   text-align: center;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Heading5
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0px 0px 0px 44px;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 18px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   margin: 0;
+   padding: 0px 0px 25px 0px;
+   text-align: center;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Heading2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#StickyLayer
+{
+   background-color: #3E3E3E;
+   background-image: none;
+   opacity: 0.77;
+}
+#wb_up-arrow
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #3E3E3E;
+   text-align: center;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   vertical-align: top;
+}
+#up-arrow
+{
+   height: 24px;
+   width: 24px;
+}
+#up-arrow i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 24px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 14px;
+}
+</style>
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="util.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#home']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#home').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#about']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#about').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#services']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#services').offset().top }, 600, 'easeOutExpo');
+   });
+});
+</script>
+</head>
+<body data-spy="scroll">
+<div id="header">
+<div id="wb_Heading1" style="display:inline-block;z-index:0;">
+<h1 id="Heading1">SAIRAM POLY</h1>
+</div>
+<div id="wb_CssMenu1" style="display:inline-block;height:28px;z-index:1;">
+<ul id="CssMenu1" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdVg8O5XSIQz4fT7zvvUxlsxmRV6wZ9-IhYpnuRvISfPhjAOw/viewform" target="_self">voting</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="http://gamedev.cf" target="_self">play&nbsp;game&nbsp;online</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="https://2021.spaceappschallenge.org/challenges/statements/space-quest-the-game/teams/sairam-poly/project" target="_self">main&nbsp;website</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="https://github.com/hsratneshsci/mission-jupiter-to-earth-sairam" target="_self">github&nbsp;page</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./download.html" target="_self">download</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div id="wb_home">
+<div id="home">
+<div id="wb_Card6" style="display:flex;text-align:center;z-index:2;">
+   <div id="Card6-card-body">
+      <div id="Card6-card-item0">HIGH-LEVEL PROJECT SUMMARY<br></div>
+      <div id="Card6-card-item1">This project is made to educate people with rocket launch sequence and life in space This game is aimed for middle schoolers(age : 10 to 15) as audience . This game has engaging story which leads to make the students to learn while they play. This game consist learning content like Launch sequences , launch tests ,things they do before launch, life in space, and what do they do In space missions. Programming language is used in pygame , renpy scripting. This game is multiplatform made this game for android ,windows and Linux. This game has multi-character/protagonist and one forth-wall breaking character. OUR GAMEPLAY IS INCLUDED IN DEMO ALSO IN GITHUB PAGE</div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_about">
+<div id="about">
+<div id="wb_Heading5" style="display:inline-block;z-index:3;">
+<h1 id="Heading5">DETAILED PROJECT DESCRIPTION</h1>
+</div>
+<div id="wb_Text1">
+<p style="font-weight:bold;"> this project is made to educuate people about rocket launch sequence and life is space this explains <span style="text-decoration:underline;">with engaging story</span></p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">this game is aimed fro middle schoolers &lt;age 10 to 15&gt; as audience</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">the game has engaging story which leads to make the <span style="text-decoration:underline;">students to learn while they play </span></p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">the game consist learning content like </p>
+<p style="font-weight:bold;">&nbsp;</p>
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;"> luanching sequence 
+</li>
+<li style="margin:0 0 0 24px;"> luanch tests
+</li>
+<li style="margin:0 0 0 24px;"> things they do in space before launch
+</li>
+<li style="margin:0 0 0 24px;">life in space
+</li>
+<li style="margin:0 0 0 24px;">and what will they do in space missions
+</li>
+</ul>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">Programming language is used in pygame,renpy scripting</p>
+<p style="font-weight:bold;">This game is multiplatform made this game for <span style="text-decoration:underline;">android ,windows and linux</span></p>
+<p style="font-weight:bold;">This game has multi-character/protagonist and one forth-wall breaking character </p>
+<p style="font-weight:bold;">We are made the project based on game development with renpy engine and python scripting.</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">the aim of the game is to make players learn sum basics <span style="text-decoration:underline;">on launching sequences and life in space</span>.</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">This game happens on our solar system near asteroid belt and <span style="text-decoration:underline;">Jupiter's moon Europa</span>.</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">this game will be released for three platform such as :<span style="text-decoration:underline;">linux, windows, android(also chromebook).</span></p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">This game uses python libraries to display and animate images.</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">This game contains <span style="text-decoration:underline;">five</span> main characters in total this game has one <span style="text-decoration:underline;">main character</span></p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="font-weight:bold;">This game has game play time of 1 hour 32 minutes not including quiz at end this quiz consists of <span style="text-decoration:underline;">25 questions true or false </span></p>
+</div>
+</div>
+</div>
+<div id="wb_services">
+<div id="services">
+<div id="wb_Heading2" style="display:inline-block;z-index:5;">
+<h1 id="Heading2">download links</h1>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="wb_Text3">
+<span style="color:#FFFFFF;">Team name:SAIRAM POLY </span>
+</div>
+</div>
+<div id="StickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:13;">
+<div id="wb_up-arrow" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:7;">
+<a href="#home"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+</div>
+
+</body>
+</html>
